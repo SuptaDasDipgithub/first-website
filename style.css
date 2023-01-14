@@ -6,7 +6,7 @@ h1 {
   font-size: 40px;
 }
 .name-highlight {
-  color: blueviolet;
+  color: red;
 }
 .half-width img {
   width: 500px;
@@ -25,6 +25,7 @@ h1 {
 }
 section {
   height: 450px;
+  padding-bottom: 118px;
 }
 .click {
   text-decoration: none;
@@ -34,4 +35,36 @@ section {
   border-radius: 5px;
   color: black;
   font-weight: bold;
+}
+.next-area {
+  background-image: url("/images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+h4 {
+  color: blueviolet;
+}
+.shadow {
+  box-shadow: 12px 12px 46px burlywood;
+  border-radius: 7px;
+  height: 80%;
+  /* background-color: white; */
+}
+.text-part {
+  background-image: url("/images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#front {
+  border-left: 5px solid lightsalmon;
+  /* border left: 7px solid;
+     border-image: linear-gradient(lightsalmon, tomato);
+     border-image-slice: 1; */
+}
+#back {
+  border-left: 5px solid skyblue;
+}
+footer {
+  text-align: center;
+  font-size: 10px;
 }
